@@ -54,7 +54,7 @@ export default function Contact() {
             max-w-5xl
             mx-auto
           ">
-            Ready to transform your business with AI? Let's start the conversation.
+            Ready to transform your business with AI? Let&apos;s start the conversation.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function Contact() {
               text-left
               mb-8
             ">
-              LET'S TALK
+              LET&apos;S TALK
             </h2>
             
             <div className="space-y-8">

@@ -341,7 +341,7 @@ export default function Home() {
                     className="w-full h-full object-cover" 
                   />
                 </div>
-                <p className="text-sm hover:text-accent transition-colors">Modernizing Legacy Systems with AI: What's Now Possible</p>
+                <p className="text-sm hover:text-accent transition-colors">Modernizing Legacy Systems with AI: What&apos;s Now Possible</p>
               </a>
             </div>
             <div className="bg-white p-3 rounded-xl">
