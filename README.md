@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YourSite - Modern Web Solutions
 
-## Getting Started
+A beautiful, modern website built with Next.js 15, TypeScript, and Tailwind CSS. Features responsive design, dark mode support, and optimized performance.
 
-First, run the development server:
+## ✨ Features
 
+- 🚀 **Next.js 15** with App Router
+- 🎨 **Tailwind CSS** for modern styling
+- 🌙 **Dark mode** support
+- 📱 **Responsive design** (mobile-first)
+- ⚡ **TypeScript** for type safety
+- 🔧 **ESLint** and **Prettier** configured
+- 🎯 **SEO optimized** with proper meta tags
+- ♿ **Accessibility** features
+- 🖼️ **Lucide React** icons
+- 🎭 **Beautiful gradients** and animations
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js 18+ installed on your machine.
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd prodctwebsite
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Learn More
+## 🛠️ Development
 
-To learn more about Next.js, take a look at the following resources:
+### Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Project Structure
 
-## Deploy on Vercel
+```
+src/
+├── app/
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Homepage
+│   └── globals.css     # Global styles
+├── components/         # Reusable components
+└── lib/               # Utility functions
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Styling
+- Edit `src/app/globals.css` for global styles
+- Use Tailwind classes for component styling
+- Customize colors in `tailwind.config.js`
+
+### Content
+- Update `src/app/page.tsx` for homepage content
+- Modify `src/app/layout.tsx` for site metadata
+- Replace logo and branding elements
+
+## 📦 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy with zero configuration
+
+### Manual Deployment
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. The `out` directory contains the static files ready for deployment.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Icons by [Lucide](https://lucide.dev/)
+- Fonts by [Vercel](https://vercel.com/font)
