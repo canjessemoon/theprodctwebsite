@@ -79,12 +79,11 @@ export default function Contact() {
             </h2>
             
             <div className="space-y-8">
-              <div>
-                <p className="text-lg font-semibold mb-4">
-                  Let's turn your AI ideas into action.
+              <div>                <p className="text-lg font-semibold mb-4">
+                  Let&apos;s turn your AI ideas into action.
                 </p>
                 <p className="text-base mb-6">
-                  Whether you're just beginning to explore AI or looking to take your strategy to the next level, we're here to help. Book a free consultation or demo with our experts and discover how AI can drive growth, efficiency, and innovation in your business.
+                  Whether you&apos;re just beginning to explore AI or looking to take your strategy to the next level, we&apos;re here to help. Book a free consultation or demo with our experts and discover how AI can drive growth, efficiency, and innovation in your business.
                 </p>
               </div>
               
@@ -131,8 +130,7 @@ export default function Contact() {
                 <p className="text-base">hello@theprodct.com</p>
               </div>
               
-              <div>
-                <h4 className="font-bold mb-2">Response Time</h4>
+              <div>                <h4 className="font-bold mb-2">Response Time</h4>
                 <p className="text-base">We typically respond within 24 hours</p>
               </div>
               
@@ -192,9 +190,8 @@ export default function Contact() {
             </div>
             
             <div className="text-center">
-              <h3 className="font-bold text-2xl mb-4 uppercase">PARTNERSHIP INQUIRIES</h3>
-              <p className="text-base mb-6">
-                Interested in partnering with us? Let's explore collaboration opportunities.
+              <h3 className="font-bold text-2xl mb-4 uppercase">PARTNERSHIP INQUIRIES</h3>              <p className="text-base mb-6">
+                Interested in partnering with us? Let&apos;s explore collaboration opportunities.
               </p>
               <Link
                 href="/contact"

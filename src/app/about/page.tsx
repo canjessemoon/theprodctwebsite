@@ -73,12 +73,11 @@ export default function About() {
               mb-8
             ">
               WHO WE ARE
-            </h2>
-            <p className="text-lg mb-6">
-              At The Prodct, we are a team of AI strategists, developers, and innovators who are passionate about transforming how businesses use artificial intelligence. We believe in the power of AI to solve real-world problems, but we also understand that it's not a one-size-fits-all solution. That's why we take a collaborative approach, working closely with you to build customized AI strategies and products that align with your goals.
+            </h2>            <p className="text-lg mb-6">
+              At The Prodct, we are a team of AI strategists, developers, and innovators who are passionate about transforming how businesses use artificial intelligence. We believe in the power of AI to solve real-world problems, but we also understand that it&apos;s not a one-size-fits-all solution. That&apos;s why we take a collaborative approach, working closely with you to build customized AI strategies and products that align with your goals.
             </p>
             <p className="text-lg mb-6">
-              Our team combines deep technical expertise with a business-first mindset, ensuring that every solution we deliver is practical, scalable, and focused on delivering measurable value. We're here to help you navigate the AI landscape and empower your team to achieve success with cutting-edge technology.
+              Our team combines deep technical expertise with a business-first mindset, ensuring that every solution we deliver is practical, scalable, and focused on delivering measurable value. We&apos;re here to help you navigate the AI landscape and empower your team to achieve success with cutting-edge technology.
             </p>
           </div>
           <div>
@@ -117,8 +116,7 @@ export default function About() {
               OUR APPROACH
             </h2>
             <div className="space-y-6">
-              <div>
-                <h3 className="font-bold text-xl mb-3">Global Reach, Boutique Service:</h3>
+              <div>                <h3 className="font-bold text-xl mb-3">Global Reach, Boutique Service:</h3>
                 <p className="text-base">
                   Our team works with companies around the world, providing personalized attention to you and your organizations specific needs.
                 </p>
@@ -127,14 +125,14 @@ export default function About() {
               <div>
                 <h3 className="font-bold text-xl mb-3">No Hype, Just Results:</h3>
                 <p className="text-base">
-                  We cut through the noise and focus on what's essential. Our solutions are based on your unique challenges and goals, not on buzzwords.
+                  We cut through the noise and focus on what&apos;s essential. Our solutions are based on your unique challenges and goals, not on buzzwords.
                 </p>
               </div>
               
               <div>
                 <h3 className="font-bold text-xl mb-3">Collaborative Approach:</h3>
                 <p className="text-base">
-                  We believe in working closely with our clients, ensuring that you're involved every step of the way. Your insights and feedback are crucial as we build AI solutions that truly align with your business objectives.
+                  We believe in working closely with our clients, ensuring that you&apos;re involved every step of the way. Your insights and feedback are crucial as we build AI solutions that truly align with your business objectives.
                 </p>
               </div>
             </div>

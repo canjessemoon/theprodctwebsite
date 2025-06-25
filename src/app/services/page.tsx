@@ -155,9 +155,8 @@ export default function Services() {
           mb-8
         ">
           READY TO GET STARTED?
-        </h2>
-        <p className="text-xl mb-8 max-w-3xl mx-auto">
-          Let's discuss how our services can transform your business with AI.
+        </h2>        <p className="text-xl mb-8 max-w-3xl mx-auto">
+          Let&apos;s discuss how our services can transform your business with AI.
         </p>
         <Link
           href="/contact"

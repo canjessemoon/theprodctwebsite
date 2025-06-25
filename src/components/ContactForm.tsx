@@ -43,10 +43,9 @@ export default function ContactForm({ buttonText = "Send", className = "" }: Con
         setFormData({ name: "", email: "", message: "" });
       } else {
         throw new Error("Failed to send message");
-      }
-    } catch (err) {
-      setError("Failed to send message. Please try again.");
-    } finally {
+      }      } catch {
+        setError("Failed to send message. Please try again.");
+      } finally {
       setIsSubmitting(false);
     }
   };
