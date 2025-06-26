@@ -15,10 +15,8 @@ export async function POST(request: NextRequest) {
     const { name, email, message } = await request.json();
     
     // Log the attempt (don't log full email for security)
-    console.log('Attempting to send email with Resend...', { name, email: email.substring(0, 5) + '...' });
-
-    const data = await resend.emails.send({
-      from: 'onboarding@resend.dev', // Using Resend's sandbox domain for testing
+    console.log('Attempting to send email with Resend...', { name, email: email.substring(0, 5) + '...' });    const data = await resend.emails.send({
+      from: 'hello@theprodct.com', // Using your custom domain
       to: 'jdmoon@gmail.com',
       subject: 'New Contact Form Submission from TheProdct Website',
       replyTo: email,
