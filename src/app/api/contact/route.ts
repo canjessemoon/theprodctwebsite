@@ -13,20 +13,29 @@ export async function POST(request: NextRequest) {
     }
 
     const { name, email, message } = await request.json();
+    
+    // Log the attempt (don't log full email for security)
+    console.log('Attempting to send email with Resend...', { name, email: email.substring(0, 5) + '...' });
 
     const data = await resend.emails.send({
-      from: 'contact@yourdomain.com', // Use your verified domain or Resend sandbox
+      from: 'onboarding@resend.dev', // Using Resend's sandbox domain for testing
       to: 'jdmoon@gmail.com',
-      subject: 'New Contact Form Submission',
+      subject: 'New Contact Form Submission from TheProdct Website',
       replyTo: email,
-      html: `<p><strong>Name:</strong> ${name}</p>
+      html: `<h2>New Contact Form Submission</h2>
+             <p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
-             <p><strong>Message:</strong><br/>${message}</p>`
+             <p><strong>Message:</strong></p>
+             <p>${message.replace(/\n/g, '<br>')}</p>`
     });
 
-    return NextResponse.json({ message: 'Email sent!', data }, { status: 200 });
+    console.log('Email sent successfully:', data);
+    return NextResponse.json({ message: 'Email sent successfully!', data }, { status: 200 });
   } catch (error) {
     console.error('Error sending email:', error);
-    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
+    return NextResponse.json({ 
+      error: 'Failed to send email', 
+      details: error instanceof Error ? error.message : 'Unknown error' 
+    }, { status: 500 });
   }
 }
